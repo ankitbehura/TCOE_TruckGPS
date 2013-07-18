@@ -1,0 +1,35 @@
+Abraham
+========
+1. Basic layout and to_do
+2. 3 bit completely
+3. Co-ordinate with Nikhil on GPS question no. 6 and with Ankit on question no. 7
+
+Ankit
+=====
+1. Tackle question 7 by reading up on possible approaches
+
+Nikhil
+======
+1. Question 6 
+
+Task @ hand
+===========
+1.  Make voice calls from tablet using the contacts in the mobile through bluetooth interface.
+		a)  The dial screen and contacts in the mobile should be displayed on the tablet.
+		b)  For voice, bluetooth headset/ tablet speaker/ truck audio system  should be used.
+2.  Speak a name/number to make a call using bluetooth
+		a)  Speech to text conversion
+		b)  Confirmation for correct person/numbers before dialing 
+		c)  Multi languages support whatever supported by Android Tablet.
+		d)  Voice Recognition
+3.  Listen to or play any content available on tablet (audio/video)
+		a)  File manager concept
+		b)  Display all the audio and video contents in a list. 
+		c)  Play the selection.
+4.  Toll payment through phone GPRS 
+5.  Download any content onto Aakash tablet using Wi-Fi
+		a) Search for access points in railway stations, markets etc. and resume the downloads.
+6.  Send GPS coordinates to central server for vehicle tracking.
+7.  Display map (community-based traffic and navigation app) on tablet with info on stoppage, police, 
+	facilities, cops and directions using phone GPS coordinates.(Crowdsourcing technology) Get alerted 
+	before you approach police, accidents, road hazards or traffic jams.

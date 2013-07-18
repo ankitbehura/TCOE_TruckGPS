@@ -1,0 +1,18 @@
+Activity layout
+===============
+
+We will be now listing the activity layout for the app:
+	- Indentation implies the contents of the particular activity
+	- () specifies what the activity achieves
+	
+1. Landing page
+      (App name + Contributors on some good background)
+2. Home page
+	  (Safety net. 
+	   Single-instance activity which will call other
+	   functionalities over it but not kill itself. 
+	   Submodule selection happens here and the control diverges
+	   from here and all "back"s must converge here)
+	- Button 1: Music explorer
+	- Button 2: Update Server with GPS co-ordinates
+	- Button 3: Update map with crowdsourcing technology
