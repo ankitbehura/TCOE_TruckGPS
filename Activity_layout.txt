@@ -15,4 +15,5 @@ We will be now listing the activity layout for the app:
 	   from here and all "back"s must converge here)
 	- Button 1: Music explorer
 	- Button 2: Update Server with GPS co-ordinates
+				There will also be a background service which will send the coordinates after prior permission from the user. 
 	- Button 3: Update map with crowdsourcing technology
