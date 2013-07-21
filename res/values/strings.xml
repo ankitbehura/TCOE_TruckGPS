@@ -14,5 +14,6 @@
     <string name="speech">Activate Speech Recognition</string>
     <string name="paytoll">Pay Toll</string>
     <string name="net">Check For Wi-Fi</string>
+    <string name="title_activity_gpslocation_sender">GPSLocationSender</string>
 
 </resources>

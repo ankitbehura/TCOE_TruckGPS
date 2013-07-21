@@ -8,6 +8,10 @@
         android:minSdkVersion="8"
         android:targetSdkVersion="17" />
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	    
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -25,6 +29,10 @@
         <activity
             android:name="com.iitm.tcoe_truckgps.HomeActivity"
             android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="com.iitm.tcoe_truckgps.GPSLocationSender"
+            android:label="@string/title_activity_gpslocation_sender" >
         </activity>
     </application>
 
