@@ -3,17 +3,26 @@ Activity layout
 
 We will be now listing the activity layout for the app:
 	- Indentation implies the contents of the particular activity
-	- () specifies what the activity achieves
+	- * specifies what the activity achieves
 	
 1. Landing page
-      (App name + Contributors on some good background)
+       * App name
+       * Contributors on some good background
 2. Home page
-	  (Safety net. 
-	   Single-instance activity which will call other
-	   functionalities over it but not kill itself. 
-	   Submodule selection happens here and the control diverges
-	   from here and all "back"s must converge here)
-	- Button 1: Music explorer
-	- Button 2: Update Server with GPS co-ordinates
+	   * Safety net. 
+	   * Single-instance activity which will call other functionalities over it but not kill itself. 
+	   * Submodule selection happens here and the control diverges from here and all "back"s must converge here
+	->Contents:
+	- Button 2: Music explorer
+	            Takes you to MusicActivity
+	- Button 5: Update Server with GPS co-ordinates
 				There will also be a background service which will send the coordinates after prior permission from the user. 
-	- Button 3: Update map with crowdsourcing technology
+	- Button 6: Update map with crowdsourcing technology
+3. Music page
+		* Checks if the media folder is specified. If not, we wait for the user to specify the media folder
+		* If file not found, appropriate message shown
+		- Button 1: Find and play media
+				Confirms if the path is correct. Else, clears the database and starts of /
+	            The final file on being chosen is passed via an intent to the appropriate music player by using the ubiquitous program picker.
+	    
+		
